@@ -6,7 +6,6 @@
         "start": "node server.js",
         "build": "ng build --prod",
         "test": "ava",
-        "lint": "ng lint",
         "e2e": "ng e2e"
     },
     "dependencies": {

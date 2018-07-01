@@ -1,21 +1,21 @@
 {
-    "name": "a",
-    "version": "0.0.0",
-    "scripts": {
-        "start": "node server.js",
-        "build": "ng build --prod",
-        "test": "ava"
-    },
-    "dependencies": {
-        "@angular/animations": "^6.0.5",
-        "@angular/common": "^5.0.0"
-    },
-    "devDependencies": {
-        "ava": "1.0.0-beta.6"
-    },
-    "ava": {
-        "files": [
-        "./tests/**/*.js"
-        ]
-    }
+  "name": "a",
+  "version": "0.0.0",
+  "scripts": {
+    "start": "node server.js",
+    "build": "ng build --prod",
+    "test": "ava"
+  },
+  "dependencies": {
+    "@angular/animations": "^6.0.5",
+    "@angular/common": "^6.0.7"
+  },
+  "devDependencies": {
+    "ava": "1.0.0-beta.6"
+  },
+  "ava": {
+    "files": [
+      "./tests/**/*.js"
+    ]
+  }
 }

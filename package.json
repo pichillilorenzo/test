@@ -5,8 +5,7 @@
         "ng": "ng",
         "start": "node server.js",
         "build": "ng build --prod",
-        "test": "ava",
-        "e2e": "ng e2e"
+        "test": "ava"
     },
     "dependencies": {
         "@angular/animations": "^6.0.5",
